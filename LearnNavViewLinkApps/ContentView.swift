@@ -21,30 +21,7 @@ struct ContentView: View {
                 Text("Second view")
             }.navigationTitle("Content view")
             
-            
-//            NavigationLink {
-//                SecondView()
-//            }label: {
-//                Text("Go to Second view")
-//            }.navigationTitle("Content view")
-//
-            //        List(1...20, id:\.self){index in
-            //            NavigationLink {
-            //                DetailView(index: index)
-            //            } label: {
-            //                Text("\(index)")
-            //            }
-            //
-            //
-            //        }
-            //            NavigationLink(isActive: $isActive) {
-            //                DetailView()
-            //            } label: {
-            //                Button("Go to detail view"){
-            //                    isActive = true
-            //                }
-            //            }
-            //
+   
             
         }
         
